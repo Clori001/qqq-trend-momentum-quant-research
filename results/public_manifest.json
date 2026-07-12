@@ -1,0 +1,292 @@
+{
+  "project": "ccb_quant",
+  "variant": "public",
+  "generated_at_utc": "2026-07-12T01:15:22.844640+00:00",
+  "common_period": {
+    "start": "2017-08-01",
+    "end": "2026-07-10",
+    "observations": 2247
+  },
+  "test_result": {
+    "command": "python -m pytest -q",
+    "returncode": 0,
+    "summary": "55 passed in 3.73s"
+  },
+  "phase_1_to_6_frozen_audit": {
+    "status": "PASS",
+    "unchanged": true,
+    "checked_files": 11,
+    "approved_visual_text_change_excluded": "results/raw_signal_executed_position.png",
+    "mismatches": []
+  },
+  "bloomberg_distribution": "not included",
+  "report_status": "accepted final PDF included",
+  "manifest_self_hash_note": "This manifest is excluded from its own circular payload hash list; the complete archive is covered by the separately reported ZIP SHA-256.",
+  "payload_files": [
+    {
+      "path": "config/config.yaml",
+      "bytes": 1996,
+      "sha256": "5CD38F6D9F481A495EF03636E9852BA95E2AB911C9E595C01C4C82BEE8DFB099"
+    },
+    {
+      "path": "DATA_NOT_INCLUDED.md",
+      "bytes": 315,
+      "sha256": "95106278C34D912F6E6F5397BE51D21FFDF954C86222319A65619AD245EC6792"
+    },
+    {
+      "path": "docs/ai_work_log.md",
+      "bytes": 1639,
+      "sha256": "03023246B0A1C7CDCF02C65E1096478E5ECB0520B491736D02554E2FFCB91DAF"
+    },
+    {
+      "path": "docs/backtest_engine_report.md",
+      "bytes": 1482,
+      "sha256": "47CB01CD2350BFBBECEE6D39F923C3A03F9749E3EC9330195393DB42ED952B70"
+    },
+    {
+      "path": "docs/code_source_statement.md",
+      "bytes": 1567,
+      "sha256": "816BC6537B87CA1479B32AB9DFDB0C5D8590A266618896DEA379D1C7E0CF7C1E"
+    },
+    {
+      "path": "docs/data_quality_report.md",
+      "bytes": 1863,
+      "sha256": "F40D783D8766E1A5DF9BEF7C8937EF67F5FD15A90AE6AB9703FFB5D000BD8283"
+    },
+    {
+      "path": "docs/debugging_guide.md",
+      "bytes": 1457,
+      "sha256": "9934E1B79DF0BBE71BFCEA37FDE669C9FD79020DEA512244C2B7CBBFED5D7C4A"
+    },
+    {
+      "path": "docs/decision_log.md",
+      "bytes": 2235,
+      "sha256": "8E4C2B02F8BF80C94F80471575D52A5137A260B57C09AE1822B648F756EDECB5"
+    },
+    {
+      "path": "docs/dependency_inventory.md",
+      "bytes": 739,
+      "sha256": "2F75AF688352E72F599AD1F22251D184EA65D662799288AD3AB8A5119EB69000"
+    },
+    {
+      "path": "docs/fresh_folder_smoke_test.md",
+      "bytes": 680,
+      "sha256": "5CA0AE2F1DEDC25CAE838271D10D3B3DA74784F1E9B94B08B6BD7FFCE6848521"
+    },
+    {
+      "path": "docs/indicator_report.md",
+      "bytes": 1213,
+      "sha256": "2BF320048959347DDDBBE9F4902F517B9B6D72AE7865C3F0BC0FB88BBF57FD44"
+    },
+    {
+      "path": "docs/methodology_report.md",
+      "bytes": 8868,
+      "sha256": "F4F0E7301C6C0FE1E23BD682A7FFEB805E9B4C23A15E85853A07012CAE7CB991"
+    },
+    {
+      "path": "docs/metrics_robustness_report.md",
+      "bytes": 1159,
+      "sha256": "24387A6E71554DE8747E01D407F452F8116129906CA93D3D7D8EE06F394C796C"
+    },
+    {
+      "path": "docs/pytest_output.txt",
+      "bytes": 204,
+      "sha256": "4E318146C94225395C01399641179BC056E18C2A19424D6E93A14E487DEA55C5"
+    },
+    {
+      "path": "docs/raw_signal_report.md",
+      "bytes": 1334,
+      "sha256": "412FD5848AB53BEB9FADEBD405ABE191739895831C73FD5C79E88E151C202617"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "bytes": 1610,
+      "sha256": "3743C216E1A52D2790516BB5C707DD4BB1EB91CCC65C0C3006BA0F66F9206F46"
+    },
+    {
+      "path": "docs/test_evidence.md",
+      "bytes": 970,
+      "sha256": "FA8E10636E1CA7D64F88315EEA11C53AF659E77C5D51BA23133C0FB4AF4041E8"
+    },
+    {
+      "path": "docs/visualization_report.md",
+      "bytes": 382,
+      "sha256": "1A75D28188376FE0426839A46205992E8F0DBA76AD695758D72E6E6454DDD590"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 250,
+      "sha256": "708D2E0BA8BA760E21D6D17F9D515F465FD0F1C581E07D4C81F256FD64F6D00F"
+    },
+    {
+      "path": "main.py",
+      "bytes": 3602,
+      "sha256": "2BCB3FEED179806E2DFB920B337DA023B02AA6FD1DA8FA5F07E3118CBBDC1AA0"
+    },
+    {
+      "path": "phase2_indicators.py",
+      "bytes": 6064,
+      "sha256": "26CF625943D1B9770C39F55315D57392ACD09B1FBA093B7877737A7A5CDAD3CD"
+    },
+    {
+      "path": "phase3_signals.py",
+      "bytes": 6189,
+      "sha256": "9438E911A7F225E8E51BE5BFB58EB62BD6AF8B700C6DA1C45E8F0373622B505A"
+    },
+    {
+      "path": "phase4_backtest.py",
+      "bytes": 6471,
+      "sha256": "8FC15571BA4818BD1CA815CD07BD937230C0511D4322CA6EC7D3CBE10032F9B3"
+    },
+    {
+      "path": "phase5_metrics.py",
+      "bytes": 12582,
+      "sha256": "D623961516F00D6D85AC728421B48463D60A1462355E49789BD98436F5783D1D"
+    },
+    {
+      "path": "phase6_visualizations.py",
+      "bytes": 4657,
+      "sha256": "CD85307D945561FB315044AD2C9E7D59A87C1B837EA3D345681EB3DF0FD8612D"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4890,
+      "sha256": "D51907E0286ABD081F8149DC18BE1F2EF51A54F82D933A245E1C66CB8928CB60"
+    },
+    {
+      "path": "reports/QQQ_趋势跟踪与时间序列动量策略研究_Caro.pdf",
+      "bytes": 2044882,
+      "sha256": "903D65428A19935EDA44F8DD2717F1FD7FBED390561E3AF5BFF9CC3CD17915DE"
+    },
+    {
+      "path": "results/net_drawdown_comparison.png",
+      "bytes": 174036,
+      "sha256": "A9B76FD03A8303C84459AD81119F7C52AB939312C2D046BDA6DD555871727C48"
+    },
+    {
+      "path": "results/net_nav_comparison.png",
+      "bytes": 119949,
+      "sha256": "6931C49F0C6FD1C595DD5B031E80947712C5A5BDA4D28D161247E22D18EB5F60"
+    },
+    {
+      "path": "results/performance_summary.csv",
+      "bytes": 832,
+      "sha256": "07008B3882C6EC5216666E4E4D5137B3FFFDEAD479BB5116F8BF3E59743D2DAB"
+    },
+    {
+      "path": "results/raw_signal_executed_position.png",
+      "bytes": 117725,
+      "sha256": "09C4D46067751170F3D20F2668F0FF0CAB34163B4550BBFBABC15CBFF56ACAD1"
+    },
+    {
+      "path": "results/robustness_summary.csv",
+      "bytes": 2723,
+      "sha256": "B3D5CEB7E011955C2206260278F6633F717080799B1E171BE24EA85B2DEDBD2E"
+    },
+    {
+      "path": "scripts/build_submission_package.py",
+      "bytes": 15988,
+      "sha256": "2DEA98B573520C2F8644DC595A7FC80C85C09F3FE150A263A41C5B734B19182C"
+    },
+    {
+      "path": "src/ccb_quant/__init__.py",
+      "bytes": 74,
+      "sha256": "B0521AAD5AB5466157BCB99CC3355E676C45938D8391C7E106483006FF9902A0"
+    },
+    {
+      "path": "src/ccb_quant/backtest.py",
+      "bytes": 6671,
+      "sha256": "FEA18809FD9CF4BDDE7D3F4BDD95A1AA5371E2E81BBB0F2DF51457F34C9DA435"
+    },
+    {
+      "path": "src/ccb_quant/data.py",
+      "bytes": 14064,
+      "sha256": "FCAB94BCAA4EBB072B69C668E1A6568F5323B923840B4F37A0D247CCC4E2FC4E"
+    },
+    {
+      "path": "src/ccb_quant/indicators.py",
+      "bytes": 3082,
+      "sha256": "FB2770E55E51871949D11886986AFC0E97BDE6D9C7239B0D9C20FD6783E0145C"
+    },
+    {
+      "path": "src/ccb_quant/metrics.py",
+      "bytes": 4556,
+      "sha256": "4F5C8D54B8143FC0F59971909103EE10FE09DB397019CF8A35915EC16B1024B8"
+    },
+    {
+      "path": "src/ccb_quant/naming.py",
+      "bytes": 1953,
+      "sha256": "BEAADB086685698DD718153DACB1D021C3793F76C85E4F6FC45DD99632AA18FF"
+    },
+    {
+      "path": "src/ccb_quant/report_context.py",
+      "bytes": 1303,
+      "sha256": "4A3FC3E9E1F74F1ED11794C5B0C6E68C2041C7E2406600C3D50A8D1E9C6F34F3"
+    },
+    {
+      "path": "src/ccb_quant/signals.py",
+      "bytes": 5961,
+      "sha256": "76E82FDC30F363F3AB97A58ADF271F99E2DD966044AAE8566A48FADC2C5AA9F2"
+    },
+    {
+      "path": "src/ccb_quant/validation.py",
+      "bytes": 793,
+      "sha256": "C54D2D0E1A5896B815A9CE50A9D6482EF222BC6B70A0D06033257ABE559F9893"
+    },
+    {
+      "path": "src/ccb_quant/visualization.py",
+      "bytes": 6841,
+      "sha256": "BBBAA6B763092223A92039F8BE7EA89AB46E34108140A333323FC35DD565D762"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 228,
+      "sha256": "724272A24D7B7AED4F5766DF818E428C77A97007D406A2E4691605DD61227BA5"
+    },
+    {
+      "path": "tests/fixtures/synthetic_prices.csv",
+      "bytes": 213,
+      "sha256": "E5BBA4A77533F99DDB948208BFE97C21B386C6B8EF9E0AFDF673BA50EF82E742"
+    },
+    {
+      "path": "tests/test_backtest.py",
+      "bytes": 4603,
+      "sha256": "55F2FA37C10D892DF5871A80DD1F93BF1F15063514EB6B2ECD3996C4A7560940"
+    },
+    {
+      "path": "tests/test_data.py",
+      "bytes": 3739,
+      "sha256": "71CA2C536EF1A382B63ED77E36F7271CC215FAFE92A265E3088094D4B420F370"
+    },
+    {
+      "path": "tests/test_engineering_regressions.py",
+      "bytes": 14159,
+      "sha256": "AFB8E56A8C6138DE150583A76BBAB3E39028F5177F58023D633F8E7D2FCF7021"
+    },
+    {
+      "path": "tests/test_indicators.py",
+      "bytes": 3171,
+      "sha256": "D33D42BA5E3BAE8D7786A9D5F76F1D48D250A5531C82C437BD9B344542E043BB"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "bytes": 1957,
+      "sha256": "1294D004911D8BF646315A61239529AF315BEF4FB545F35546C599538D988536"
+    },
+    {
+      "path": "tests/test_phase5_consistency.py",
+      "bytes": 3066,
+      "sha256": "C2BC43DD538B2D10C29FF51F64606E3284A7DE2A1A434E7A0DB508C5D077BD58"
+    },
+    {
+      "path": "tests/test_signals.py",
+      "bytes": 3240,
+      "sha256": "CBAF5EEDA208B4FDF43F48E66EFC294E4F8FE7C7E93D3202C5DB3E0EF5B35477"
+    },
+    {
+      "path": "tests/test_visualization.py",
+      "bytes": 2170,
+      "sha256": "28F1E71104A8AC6F4E46A0583081757AAD02A87120B975332E66842D73166DD9"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+data:
+  raw_file: data/raw/QQQ_US_Equity_20160710_Bloomberg_Raw.csv
+  processed_file: data/processed/etf_ohlcv_clean.csv
+  header_row: 5  # Zero-based index; the header is physical row 6.
+  delimiter: ","
+  date_format: "%d/%m/%Y"
+  expected_start_date: "2016-07-11"
+  expected_end_date: "2026-07-10"
+  outlier_review_threshold: 0.10
+
+indicators:
+  input_file: data/processed/etf_ohlcv_clean.csv
+  ma_windows: [20, 60]
+  momentum_lookbacks: [126, 252]
+  primary_momentum_lookback: 252
+
+signals:
+  exclude_terminal_month_without_next_observation: true
+
+backtest:
+  common_period: auto
+  transaction_cost_bps: 5
+  cost_sensitivity_bps: [0, 5, 10]
+  initial_position: 0
+
+metrics:
+  annual_trading_days: 252
+  risk_free_annual_rate: 0.0
+
+visualization:
+  dpi: 150
+  style: seaborn-v0_8-whitegrid
+
+outputs:
+  data_quality_json: results/data_quality_report.json
+  data_quality_markdown: docs/data_quality_report.md
+  phase1_log_file: logs/phase1_data.log
+  indicator_file: data/processed/etf_indicators.csv
+  indicator_report: docs/indicator_report.md
+  phase2_log_file: logs/phase2_indicators.log
+  raw_signal_file: data/processed/etf_raw_signals.csv
+  raw_signal_report: docs/raw_signal_report.md
+  phase3_log_file: logs/phase3_raw_signals.log
+  daily_backtest_file: results/daily_backtest_results.csv
+  backtest_report: docs/backtest_engine_report.md
+  phase4_log_file: logs/phase4_backtest.log
+  performance_summary_file: results/performance_summary.csv
+  robustness_summary_file: results/robustness_summary.csv
+  drawdown_series_file: results/daily_drawdowns.csv
+  metrics_report: docs/metrics_robustness_report.md
+  phase5_log_file: logs/phase5_metrics.log
+  nav_comparison_chart: results/net_nav_comparison.png
+  drawdown_comparison_chart: results/net_drawdown_comparison.png
+  price_ma_chart: results/qqq_close_ma20_ma60.png
+  signal_alignment_chart: results/raw_signal_executed_position.png
+  visualization_report: docs/visualization_report.md
+  phase6_log_file: logs/phase6_visualization.log
