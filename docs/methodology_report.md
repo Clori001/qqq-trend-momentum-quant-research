@@ -1,4 +1,4 @@
-# AI 辅助 ETF 趋势与时间序列动量回测研究报告
+# ETF 趋势与时间序列动量回测研究报告
 
 ## 1. Executive Summary
 
