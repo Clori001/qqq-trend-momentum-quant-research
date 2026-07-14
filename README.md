@@ -2,6 +2,8 @@
 
 **English** | [中文](README.zh-CN.md)
 
+![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white) ![pandas 3.0.1](https://img.shields.io/badge/pandas-3.0.1-150458?logo=pandas&logoColor=white) ![NumPy 2.3.5](https://img.shields.io/badge/NumPy-2.3.5-013243?logo=numpy&logoColor=white) ![Matplotlib 3.11](https://img.shields.io/badge/Matplotlib-3.11-11557C?logo=python&logoColor=white) ![pytest 9.1](https://img.shields.io/badge/pytest-9.1-0A9EDC?logo=pytest&logoColor=white)
+
 # ETF Trend-Following and Time-Series Momentum Backtesting System
 
 This project was developed for an internship selection assignment. Using a single approved offline Bloomberg QQQ CSV, the system performs data validation, indicator calculation, raw-signal generation, one-row-lagged execution, transaction-cost modeling, NAV calculation, performance evaluation, pre-declared robustness checks, and visualization.

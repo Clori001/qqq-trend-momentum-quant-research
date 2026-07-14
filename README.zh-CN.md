@@ -2,6 +2,8 @@
 
 [English](README.md) | **中文**
 
+![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white) ![pandas 3.0.1](https://img.shields.io/badge/pandas-3.0.1-150458?logo=pandas&logoColor=white) ![NumPy 2.3.5](https://img.shields.io/badge/NumPy-2.3.5-013243?logo=numpy&logoColor=white) ![Matplotlib 3.11](https://img.shields.io/badge/Matplotlib-3.11-11557C?logo=python&logoColor=white) ![pytest 9.1](https://img.shields.io/badge/pytest-9.1-0A9EDC?logo=pytest&logoColor=white)
+
 # ETF 趋势与时间序列动量回测系统
 
 本项目为实习选拔任务而开发。系统使用唯一获批的离线 Bloomberg QQQ CSV，完成数据验证、指标计算、原始信号生成、滞后一行执行、交易成本建模、净值计算、绩效评估、预声明稳健性检查与可视化。
